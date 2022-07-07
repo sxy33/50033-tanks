@@ -74,6 +74,11 @@ public class GameManager : MonoBehaviour
         else StartCoroutine(GameLoop());
     }
 
+//to reset scene when click Restart
+    //pulic void ResetScene(){
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //}
+
 
     private IEnumerator RoundStarting()
     {
